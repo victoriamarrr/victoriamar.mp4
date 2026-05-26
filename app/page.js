@@ -109,7 +109,7 @@ export default function PortfolioWebsite() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[40px] overflow-hidden shadow-2xl">
               <img
-                src="https://res.cloudinary.com/dqmmkhytj/image/upload/v1779600472/image_24_zfc0ya.png"
+                src="https://res.cloudinary.com/dqmmkhytj/image/upload/v1779759858/WhatsApp_Image_2026-05-25_at_22.41.53_tnyex6.jpg"
                 alt="Victoria Mar"
                 className="w-full h-full object-cover"
               />
