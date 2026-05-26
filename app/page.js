@@ -25,7 +25,7 @@ export default function PortfolioWebsite() {
     {
       titulo: '',
       video:
-        'https://res.cloudinary.com/dqmmkhytj/video/upload/v1779589312/anabelle_listo-copia_1_lsr1ns.mp4',
+        'https://res.cloudinary.com/dqmmkhytj/video/upload/v1779768286/0525_loawt5.mp4',
     },
 
     {
