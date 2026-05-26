@@ -109,7 +109,7 @@ export default function PortfolioWebsite() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[40px] overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+                src="https://res.cloudinary.com/dqmmkhytj/image/upload/v1779600472/image_24_zfc0ya.png"
                 alt="Victoria Mar"
                 className="w-full h-full object-cover"
               />
@@ -158,16 +158,13 @@ export default function PortfolioWebsite() {
                   <div className="aspect-[9/16] overflow-hidden relative">
                     <video
                       src={item.video}
-                      autoPlay
-                      muted
-                      loop
+                      controls
                       playsInline
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      preload="metadata"
+                      className="w-full h-full object-cover"
                     />
 
-                    <div className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-500" />
-
-                    <div className="absolute bottom-0 left-0 p-6 text-white">
+                    <div className="absolute bottom-0 left-0 p-6 text-white pointer-events-none">
                       <h4 className="text-2xl font-serif leading-tight">
                         {item.titulo}
                       </h4>
@@ -203,16 +200,13 @@ export default function PortfolioWebsite() {
                   <div className="aspect-[9/16] overflow-hidden relative">
                     <video
                       src={item.video}
-                      autoPlay
-                      muted
-                      loop
+                      controls
                       playsInline
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      preload="metadata"
+                      className="w-full h-full object-cover"
                     />
 
-                    <div className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-500" />
-
-                    <div className="absolute bottom-0 left-0 p-6 text-white">
+                    <div className="absolute bottom-0 left-0 p-6 text-white pointer-events-none">
                       <h4 className="text-2xl font-serif leading-tight">
                         {item.titulo}
                       </h4>
