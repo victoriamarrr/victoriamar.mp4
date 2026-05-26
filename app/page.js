@@ -82,7 +82,7 @@ export default function PortfolioWebsite() {
             </p>
 
             <h2 className="text-6xl md:text-8xl leading-[0.9] font-serif tracking-tight mb-8">
-              PRUEBAAAAA
+              Contenido editado para redes sociales.
             </h2>
 
             <p className="text-lg md:text-xl text-black/70 max-w-xl leading-relaxed mb-10">
